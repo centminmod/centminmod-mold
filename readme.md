@@ -35,3 +35,12 @@ rpm -ql centmin-mold
 /usr/local/libexec/mold/ld
 /usr/local/share/man/man1/mold.1
 ```
+
+```
+readelf -p .comment $(which nginx)
+
+String dump of section '.comment':
+  [     0]  GCC: (GNU) 4.8.5 20150623 (Red Hat 4.8.5-44)
+  [    2d]  GCC: (GNU) 10.2.1 20210130 (Red Hat 10.2.1-11)
+  [    5c]  mold 1.1 (89612b709638b90c8a044e2f96f47d28054ba789; compatible with GNU ld)
+```
