@@ -9,21 +9,21 @@ yum -q info centmin-mold
 Installed Packages
 Name        : centmin-mold
 Arch        : x86_64
-Version     : 1.1
+Version     : 1.2.1
 Release     : 1.el7
-Size        : 4.0 M
+Size        : 4.9 M
 Repo        : installed
-From repo   : /centmin-mold-1.1-1.el7.x86_64
-Summary     : mold-1.1 for centminmod.com LEMP stack mold-1.1
+From repo   : /centmin-mold-1.2.1-1.el7.x86_64
+Summary     : mold-1.2.1 for centminmod.com LEMP stack mold-1.2.1
 URL         : https://centminmod.com
 License     : unknown
-Description : mold-1.1 for centminmod.com LEMP stacks
+Description : mold-1.2.1 for centminmod.com LEMP stacks
 ```
 
 ```
 rpm -qa centmin-mold --changelog
-* Tue Feb 22 2022 George Liu <centminmod.com> 1.1
-- mold-1.1 for centminmod.com LEMP stack mold-1.1
+* Sat Apr 30 2022 George Liu <centminmod.com> 1.2.1
+- mold-1.2.1 for centminmod.com LEMP stack mold-1.2.1
 ```
 
 ```
